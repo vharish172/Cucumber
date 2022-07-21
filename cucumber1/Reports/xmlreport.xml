@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.004482">
+    <testcase classname="Elearning login page" name="Login with unauthorized user" time="0.003878">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null&#13;&#10;&#9;at stepdefinition.stepdefinition.user_is_on_homepage(stepdefinition.java:20)&#13;&#10;&#9;at ✽.User is on homepage(file:src/test/java/feature/elearning1.feature:4)&#13;&#10;"><![CDATA[Given User is on homepage...................................................failed
+When user enter invalid Username "amit" and password "123456"...............skipped
+Then validation message appears.............................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at stepdefinition.stepdefinition.user_is_on_homepage(stepdefinition.java:20)
+	at ✽.User is on homepage(file:src/test/java/feature/elearning1.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="Elearning login page" name="Login with authorized user" time="0.000263">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null&#13;&#10;&#9;at stepdefinition.stepdefinition.user_is_on_homepage(stepdefinition.java:20)&#13;&#10;&#9;at ✽.User is on homepage(file:src/test/java/feature/elearning1.feature:4)&#13;&#10;"><![CDATA[Given User is on homepage...................................................failed
+When user enter valid Username "amit" and password "123456".................skipped
+Then validation message appears.............................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at stepdefinition.stepdefinition.user_is_on_homepage(stepdefinition.java:20)
+	at ✽.User is on homepage(file:src/test/java/feature/elearning1.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="Elearning login page" name="verify login page" time="0.000341">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null&#13;&#10;&#9;at stepdefinition.stepdefinition.user_is_on_homepage(stepdefinition.java:20)&#13;&#10;&#9;at ✽.User is on homepage(file:src/test/java/feature/elearning1.feature:4)&#13;&#10;"><![CDATA[Given User is on homepage...................................................failed
+When User enter value in user name field....................................skipped
+And user enter value in password field......................................skipped
+Then Login button enabled...................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at stepdefinition.stepdefinition.user_is_on_homepage(stepdefinition.java:20)
+	at ✽.User is on homepage(file:src/test/java/feature/elearning1.feature:4)
+]]></failure>
+    </testcase>
+</testsuite>

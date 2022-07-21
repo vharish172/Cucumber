@@ -1,0 +1,237 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Background section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null\r\n\tat stepdefinition.stepdefinition.user_is_on_homepage(stepdefinition.java:20)\r\n\tat ✽.User is on homepage(file:src/test/java/feature/elearning1.feature:4)\r\n",
+              "duration": 2145700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User is on homepage",
+            "match": {
+              "location": "stepdefinition.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-23T09:27:57.338Z",
+        "line": 13,
+        "name": "Login with unauthorized user",
+        "description": "",
+        "id": "elearning-login-page;login-with-unauthorized-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enter invalid Username \"amit\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amit\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepdefinition.user_enter_invalid_Username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "validation message appears",
+            "match": {
+              "location": "stepdefinition.validation_message_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@amit"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Background section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null\r\n\tat stepdefinition.stepdefinition.user_is_on_homepage(stepdefinition.java:20)\r\n\tat ✽.User is on homepage(file:src/test/java/feature/elearning1.feature:4)\r\n",
+              "duration": 130900,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User is on homepage",
+            "match": {
+              "location": "stepdefinition.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-23T09:27:57.345Z",
+        "line": 22,
+        "name": "Login with authorized user",
+        "description": "",
+        "id": "elearning-login-page;login-with-authorized-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user enter valid Username \"amit\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amit\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepdefinition.user_enter_valid_Username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7600,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "validation message appears",
+            "match": {
+              "location": "stepdefinition.validation_message_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Background section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null\r\n\tat stepdefinition.stepdefinition.user_is_on_homepage(stepdefinition.java:20)\r\n\tat ✽.User is on homepage(file:src/test/java/feature/elearning1.feature:4)\r\n",
+              "duration": 243500,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User is on homepage",
+            "match": {
+              "location": "stepdefinition.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-23T09:27:57.345Z",
+        "line": 25,
+        "name": "verify login page",
+        "description": "",
+        "id": "elearning-login-page;verify-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enter value in user name field",
+            "match": {
+              "location": "stepdefinition.user_enter_value_in_user_name_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user enter value in password field",
+            "match": {
+              "location": "stepdefinition.user_enter_value_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Login button enabled",
+            "match": {
+              "location": "stepdefinition.login_button_enabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Elearning login page",
+    "description": "",
+    "id": "elearning-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/elearning1.feature",
+    "tags": []
+  }
+]
